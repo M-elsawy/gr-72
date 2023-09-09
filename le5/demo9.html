@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .fl{
+            float: left;
+        }
+        .fr{
+            float: right;
+        }
+        .cl{
+            clear: both;
+        }
+        .box1{
+            width: 50%;
+            border: 1px solid red;
+            height: 70px;
+        }
+        .box2{
+            width: 50%;
+            border: 1px solid blue;
+            height: 70px;
+        }
+        .box1 .inne3-box1{
+            width: 30%;
+            height: 100%;
+            border: 1px solid green;
+        }
+        .box1 .inne2-box1{
+            width: 30%;
+            height: 100%;
+            border: 1px solid rgb(51, 0, 128);
+        }
+        .box1 .inne1-box1{
+            width: 30%;
+            height: 100%;
+            border: 1px solid rgb(4, 30, 4);
+        }
+        img{
+            width: 15%;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1 fl">
+        <div class="inne1-box1 fl">
+            <img src="img/cta-bg.jpg" class="fl" alt="">
+            <img src="img/cta-bg.jpg" class="fr" alt="">
+        </div>
+        <div class="inne2-box1 fl">
+            <img src="img/cta-bg.jpg" class="fl" alt="">
+            <img src="img/cta-bg.jpg" class="fl" alt="">
+            <img src="img/cta-bg.jpg" class="fr" alt="">
+        </div>
+        <div class="inne3-box1 fr">
+            <img src="img/cta-bg.jpg" class="fl" alt="">
+            <img src="img/cta-bg.jpg" class="fl" alt="">
+            <img src="img/cta-bg.jpg" class="fl" alt="">
+            <img src="img/cta-bg.jpg" class="fl" alt="">
+            <img src="img/cta-bg.jpg" class="fl" alt="">
+            <img src="img/cta-bg.jpg" class="fl" alt="">
+        </div>
+    </div>
+    <div class="box2 fr">
+
+    </div>
+</body>
+</html>
