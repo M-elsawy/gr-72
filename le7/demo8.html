@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .box{
+            position: relative;
+            background-color: green;
+            margin-left: 1%;
+            width: calc(95% /4 );
+            padding: 20px;
+            float: left;
+            text-align: center;
+            color: #fff;
+            
+        }
+        .box:hover{
+            border-left: 10px solid rgb(115, 247, 115);
+            border-right: 10px solid rgb(115, 247, 115);
+        }
+        .box:hover:before{
+            content: "";
+            width: 50px;
+            height: 10px;
+            background-color: rgb(115, 247, 115);
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .box:hover:after{
+            content: "";
+            width: 50px;
+            height: 10px;
+            background-color: rgb(115, 247, 115);
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi accusantium eos doloribus placeat tempore praesentium, iusto incidunt explicabo ea perferendis temporibus, consequatur saepe. Incidunt ipsum officia quisquam voluptatibus magnam officiis!
+        </p>
+    </div>
+    <div class="box">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi accusantium eos doloribus placeat tempore praesentium, iusto incidunt explicabo ea perferendis temporibus, consequatur saepe. Incidunt ipsum officia quisquam voluptatibus magnam officiis!
+        </p>
+    </div>
+    <div class="box">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi accusantium eos doloribus placeat tempore praesentium, iusto incidunt explicabo ea perferendis temporibus, consequatur saepe. Incidunt ipsum officia quisquam voluptatibus magnam officiis!
+        </p>
+    </div>
+    <div class="box">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi accusantium eos doloribus placeat tempore praesentium, iusto incidunt explicabo ea perferendis temporibus, consequatur saepe. Incidunt ipsum officia quisquam voluptatibus magnam officiis!
+        </p>
+    </div>
+</body>
+</html>

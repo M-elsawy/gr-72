@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .box{
+            width: 40%;
+            background-color: gainsboro;
+            margin: 20px auto;
+            text-align: center;
+            padding: 15px;
+        }
+        .box1 p{
+            line-height: 1.9;
+        }
+        .box2 p::first-line{
+            color: red;
+        }
+        .box3 p::first-letter{
+            color: red;
+            font-size: 20px;
+        }
+        .box4 p::selection{
+            background-color: red;
+            color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis odit tempora esse corporis omnis, aperiam dignissimos quas modi voluptatum, amet quos. In at nihil odit! Quibusdam id dolorum accusantium amet.
+        </p>
+    </div>
+    <div class="box box2">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis odit tempora esse corporis omnis, aperiam dignissimos quas modi voluptatum, amet quos. In at nihil odit! Quibusdam id dolorum accusantium amet.
+        </p>
+    </div>
+    <div class="box box3">
+        <p>
+            
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.Perspiciatis odit tempora 
+            esse corporis omnis, aperiam dignissimos quas modi voluptatum, amet quos. In at nihil odit! Quibusdam id dolorum accusantium amet.
+        </p>
+    </div>
+    <div class="box box4">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis odit tempora esse corporis omnis, aperiam dignissimos quas modi voluptatum, amet quos. In at nihil odit! Quibusdam id dolorum accusantium amet.
+        </p>
+    </div>
+</body>
+</html>
