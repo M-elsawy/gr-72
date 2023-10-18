@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <style>
+    .box {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .item {
+      width: 350px;
+      border: 1px solid #80808061;
+      margin-bottom: 20px;
+      transition: box-shadow .5s;
+    }
+
+    .item:hover {
+      box-shadow: 3px 7px 9px 2px #b7b0b0;
+
+    }
+
+    ::marker {
+      color: green;
+    }
+
+    .text-st {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #00800040;
+      transition: all 3s;
+    }
+
+    .text-st:hover {
+      box-shadow: inset 560px 0px 0 0 green, inset -560px 0px 0 0 green;
+    }
+
+    .text-st:hover p {
+      color: #fff;
+      transition: all 3s;
+    }
+
+    .text-st:hover .blockquote-footer {
+      color: rgb(212, 207, 207);
+      transition: all 3s;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="box">
+      <div class="item">
+        <h1 class="display-5 text-center">Display-5</h1>
+        <p class="lead text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Incidunt enim unde libero dignissimos temporibus magnam
+          eligendi corrupti? Labore, quo sapiente! Voluptatem dignissimos,
+          quo blanditiis sunt obcaecati atque eveniet dolores reprehenderit?
+        </p>
+
+        <h3 class="text-center">
+          some text
+          <small class="text-muted"><del>50%</del></small>
+        </h3>
+
+      </div>
+
+      <div class="item">
+        <h1 class="display-5 text-center">Display-5</h1>
+        <p class="lead text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Incidunt enim unde libero dignissimos temporibus magnam
+          eligendi corrupti? Labore, quo sapiente! Voluptatem dignissimos,
+          quo blanditiis sunt obcaecati atque eveniet dolores reprehenderit?
+        </p>
+
+        <h3 class="text-center">
+          some text
+          <small class="text-muted"><del>50%</del></small>
+        </h3>
+
+      </div>
+      <div class="item">
+        <h1 class="display-5 text-center">Display-5</h1>
+        <p class="lead text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Incidunt enim unde libero dignissimos temporibus magnam
+          eligendi corrupti? Labore, quo sapiente! Voluptatem dignissimos,
+          quo blanditiis sunt obcaecati atque eveniet dolores reprehenderit?
+        </p>
+
+        <h3 class="text-center">
+          some text
+          <small class="text-muted"><del>50%</del></small>
+        </h3>
+
+      </div>
+    </div>
+    
+    <div class="box">
+      <ul class="list-unstyled">
+        <li>This is a list.</li>
+        <li>It appears completely unstyled.</li>
+        <li>Structurally, it's still a list.</li>
+        <li>However, this style only applies to immediate child elements.</li>
+        <li>Nested lists:
+          <ul>
+            <li>are unaffected by this style</li>
+            <li>will still show a bullet</li>
+            <li>and have appropriate left margin</li>
+          </ul>
+        </li>
+        <li>This may still come in handy in some situations.</li>
+      </ul>
+      <ul class="list-unstyled">
+        <li>This is a list.</li>
+        <li>It appears completely unstyled.</li>
+        <li>Structurally, it's still a list.</li>
+        <li>However, this style only applies to immediate child elements.</li>
+        <li>Nested lists:
+          <ul>
+            <li>are unaffected by this style</li>
+            <li>will still show a bullet</li>
+            <li>and have appropriate left margin</li>
+          </ul>
+        </li>
+        <li>This may still come in handy in some situations.</li>
+      </ul>
+    </div>
+    <figure class="text-center text-st">
+      <blockquote class="blockquote">
+        <p>A well-known quote, contained in a blockquote element.</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </figcaption>
+    </figure>
+  </div>
+</body>
+
+</html>
